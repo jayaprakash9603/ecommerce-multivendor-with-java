@@ -1,4 +1,8 @@
 package com.jaya.ecommerce_mutlivendor.service;
 
-public class AuthService {
+import com.jaya.ecommerce_mutlivendor.response.SignUpRequest;
+
+public interface AuthService {
+
+    String createUser(SignUpRequest signUpRequest);
 }
